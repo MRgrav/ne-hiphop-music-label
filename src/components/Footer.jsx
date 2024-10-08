@@ -18,6 +18,8 @@ export default function Footer () {
                     <ul class="text-zinc-300 gap-6 w-fit mt-2">
                         <Link path="/" >Home</Link>
                         <Link path="/about" >About</Link>
+                        <Link path="/" >Home</Link>
+                        <Link path="/about" >About</Link>
                     </ul>
                   </div>
                 </div>
