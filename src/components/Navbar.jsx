@@ -6,7 +6,7 @@ export default function Navbar () {
         <>
             <header class="top-0 z-40 sticky border-t-4 border-zinc-950 p-1 backdrop-blur-md">
                 <div class="flex mx-auto content-between bg-opcaity-0">
-                    <div class="text-xl md:text-2xl lg:text-3xl px-4 md:px-10 py-3 md:py-6 rounded-br-lg bg-zinc-950 me-auto">
+                    <div class="text-xl md:text-2xl lg:text-3xl px-4 md:px-10 py-3 md:py-6 rounded-br-lg logo-bg me-auto">
                         <p class="bg-clip-text font-black tracking-wide text-transparent bg-gradient-to-r hover:bg-gradient-to-tr from-pink-700 to-violet-600">
                             GamusaDev
                         </p>

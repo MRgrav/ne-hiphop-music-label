@@ -9,6 +9,7 @@ import WallVideo3 from "../src/assets/blackPanther_wall.mp4";
 import { createSignal } from "solid-js";
 import MusicSubmission from "./pages/MusicSubmission";
 import Footer from "./components/Footer";
+import { Client } from 'appwrite';
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -23,8 +24,7 @@ function App() {
 
   return (
     <>
-      
-        <video class="video-background" autoplay muted loop>
+        <video class="video-background top-0" autoplay muted loop>
           <source src={videoPath()} type="video/mp4" />
           Your browser does not support HTML5 video.
         </video>

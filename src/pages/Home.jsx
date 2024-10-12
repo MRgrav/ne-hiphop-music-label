@@ -37,7 +37,9 @@ export default function Home() {
         <div class="relative z-10 text-center animate-fade-in-up text-white">
           <h1 class="text-6xl md:text-8xl font-bold mb-4">East Hill Records</h1>
           <p class="text-xl md:text-2xl mb-8">Where Beats Meet the Streets</p>
-          <A href="/music" class="go-button mt-24 cursor-none">Get Started</A>
+          <div class="mt-20 relative">
+          <A href="/music" class="go-button cursor-none">Get Started</A>
+          </div>
         </div>
       </section>
       <section>
